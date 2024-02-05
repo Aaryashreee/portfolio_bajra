@@ -3,8 +3,40 @@
     html{
         font-size:55%;
 }
+    .home{
+        padding: 1rem 4rem;
+    }
+    .home img{
+        margin-left: 15vw;
+    }
+    .about .row {
+        padding: 2rem;
+        margin: 2rem;
+       
+    }
+    .about .info{
+        padding-left:  0;
+    }
 }
-
+@media(max-width:1300px){
+    .about .row {
+        padding: 2rem;
+        margin: 2rem;
+       
+    }
+    .about .info{
+        padding-left:  0;
+    }
+    .proj{
+        padding: 0;
+        margin: 0;
+    }
+    button{
+        margin: 0;
+        padding:0;
+        
+    }
+}
 @media(max-width:991px){
 
     header{
@@ -17,17 +49,86 @@
     header.toggle{
         left:0;
     }
+    body{
+        padding: 0;
+    }
+    .home img{
+        margin-left: 15vw;
+    }
+    .about .row {
+        padding: 2rem;
+        margin: 2rem;
+       
+    }
+    .about .info{
+        padding-left:  0;
+    }
+    .proj{
+        padding: 0;
+        margin: 0;
+    }
+    button{
+        font-size: small;
+    }
+
+
 }
 @media(max-width:768px){
 
     html{
         font-size:50% ;
     }
+    .home img{
+        margin-left: 5vw;
+    }
+    .about .row {
+        padding: 2rem;
+        margin: 2rem;
+       
+    }
+    .about .info{
+        padding-left:  0;
+    }
+    .proj{
+        padding: 0;
+        margin: 0;
+    }
+    button{
+        font-size: small;
+    }
 }
 @media(max-width:400px){
 
     header{
        width:100vw;
+
+    }
+    .heading{
+        margin: 0 3rem;
+    }
+    .about .row {
+        padding: 2rem;
+        margin: 2rem;
+       
+    }
+    .about .info{
+        padding-left:  0;
+    }
+    .home img{
+        margin-left: 2vw;
+    }
+    .education .box-container .box{
+        width:100%;
+    }
+    .proj{
+        padding: 0;
+        margin: 0;
+    }
+
+    button{
+        margin: 0;
+        padding:0;
+        width: fit-content;
 
     }
 }

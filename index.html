@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -25,28 +25,110 @@
         <nav class="navbar">
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#edcucation">Eductaion</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
             </ul>
         </nav>
     </header>
 
     <div id="menu" class='fas fa-bars'></div>
-    <!-- <i id="menu" class="fa fa-bars"></i> -->
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+        <img src="img/aarya.jpg" alt="">
+        <h3>HI THERE ! </h3>
+        <H1>I'M <span>Aaryashree Pokharel</span></H1>
+        <h3>Welcome to my portfolio ! </h3>
+        <p>Want to know more about me ? <br>click below </p>
+              <a href="#about"> <button class="btn">About Me <i class="fas fa-user"></i>
+        </button></a>
+
+    </section>
+
+     <!-- project starts here -->
+
+     <section class="projects" id="projects">
+        <h1 class="heading">My <span>Projects</span></h1>
+        <div class="proj">
+            <div class="project1">
+                <img src="img/sh.png" alt="shell scripting" height="30%" width="100%">
+                <h3>AddreshBook </h3>
+                <p>Made addreshbook Using shell scripting.<br></p>
+             
+              <button> <a href="https://git.bajratechnologies.com/aaryashree/addressbook_assignment_1/-/tree/feat/addreshbook_assignment?ref_type=heads" 
+                target="_blank">Gitlab</a></button> 
+              <button> <a href="https://github.com/Aaryashreee/Addressbook_sh/tree/develop" target="_blank">Visit Project</a></button> 
+            </div>
+            <div class="project2">
+                <img src="img/html.PNG" alt="Figma design" height="30%" width="100%">
+                <h3>Html / css</h3>
+                <p>Made a webpage with given figma design</p>
+                <button> <a href="https://git.bajratechnologies.com/aaryashree/assignment_figmadesign/-/tree/feat/figma_assignment?ref_type=heads" 
+                    target="_blank">Gitlab</a></button> 
+                <button><a href="https://aaryashreee.github.io/htmlcss_figma/" target="_blank">Visit Project</button></a>
+            </div>
+            <div class="project3">
+                <img src="img/bow.PNG" alt="Figma design" height="30%" width="100%">
+                <h3>BUG ON WIRE</h3>
+                <p>Made a Bug on wire game but with own twist</p>
+                <button> <a href="https://git.bajratechnologies.com/aaryashree/bow_assignment/-/tree/feat_v1?ref_type=heads" 
+                    target="_blank">Gitlab</a></button> 
+                <button><a href="https://aaryashreee.github.io/BOW_assignment/"  target="_blank">Visit Project</button></a>
+            </div>
+         </div>
+    </section>
 
 
 
 
+    <!-- about section starts -->
 
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span> ME</h1>
 
+        <div class="row">
 
+            <div class="info">
+                <h3><span>Name : </span> Aaryashree Pokharel</h3>  
+                <h3><span>DOB : </span>03-25-2001</h3>  
+                <h3><span>Post : </span> Trainee</h3>  
+                <h3><span>language : </span>Nepali , English</h3> 
+                <h3><span>Contact : </span>  <a href="https://www.linkedin.com/in/aaryashree-pokharel-66a5ab262/" >LinkedIn</a>
+                </h3> 
 
+        </div>
+    </section>
 
+    <!-- Education section starts -->
 
+    <section class="education" id="education">
+        <h1 class="heading">My <span>Education</span></h1>
+        <div class="box-container">
 
-
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2023</span>
+                <h3>Quality Assurance Training</h3>
+                <p>Deerwalk Institute Of Training</p>
+                <p>Sifal , Kathmandu</p>
+             </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2018-2023</span>
+                <h3>Bachelors of Computer Engineering</h3>
+                <p>Khwopa CollegeOf  Engineering</p>
+                <p>Libali , Bhaktapur</p>
+             </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2016-2018</span>
+                <h3>High School</h3>
+                <p>SOS Hermann Gmeiner School</p>
+                <p>Sanothimi , Bhaktapur</p>
+             </div>
+        </div>
+    </section>
 
 
 </body>
