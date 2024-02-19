@@ -289,11 +289,13 @@ header .navbar ul li a:hover{
     width: 30rem;
     padding: 1rem;
     margin: 1rem; /* Add margin for spacing between projects */
+    border-radius: 1rem;
+
 }
 
 .proj  h3 {
     font-size: large;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 
 }
 .proj  p {
@@ -316,6 +318,10 @@ button {
     border-radius: 5rem;
 }
 
-
+.projects button{
+    width: 12rem;
+    padding: 0;
+    
+}
 
 
